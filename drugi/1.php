@@ -37,7 +37,7 @@ $email = "vts@vtsss.com";
 $query->execute();
 $results = $query->fetchAll(PDO::FETCH_OBJ); // PDO::FETCH_ASSOC
 
-var_dump($results);
+//var_dump($results);
 
 if ($query->rowCount() > 0) {
     foreach ($results as $result) {
